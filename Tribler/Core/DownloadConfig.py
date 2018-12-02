@@ -7,7 +7,8 @@ import copy
 import logging
 import os
 from ConfigParser import ParsingError, MissingSectionHeaderError
-
+# guys there is bug somewhere. If I understand correctly, the program is in python 3
+#afte googling, StringType is not longer used in python 3. so... bug?
 from types import StringType
 
 from Tribler.Core.Utilities.configparser import CallbackConfigParser
